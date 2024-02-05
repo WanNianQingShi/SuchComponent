@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SuchUI2-App</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <script src="js/uni_api.js"></script>
+    <script src="js/import_helper.js"></script>
+    <script src="js/IMPORT.js"></script>
+    <script src="page/switch_preview/switch_preview.js"></script>
+
+    <link rel="stylesheet" href="img/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div id="home">
+        <div id="head">
+            <div id="app-name" onclick="quitApp()">{}</div>
+            <div id="time"></div>
+        </div>
+
+        <div id="home-body">
+
+            <button class="btn" onclick="openSwitchPage()">Switch</button>
+            <div class="empty-box"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- <div class="page" id="version">
+        <div class="page-head">
+            <div class="page-name">Back|Version</div>
+        </div>
+        <div class="page-body"></div>
+    </div> -->
+
+    <div class="page" id="empty-page">
+        <div class="page-head">
+            <div class="page-name"><i class="bi bi-caret-left-fill"></i>Empty</div>
+        </div>
+        <div class="page-body">
+        <div  style="width: 100%; padding: 30% 0; margin: 5px 0; border-radius: 10px; background-color: rgb(50, 50, 50);" >Context</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
