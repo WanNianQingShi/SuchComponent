@@ -7,11 +7,13 @@
  */
 function createSingleSelect(props) {
     const main=document.createElement('div')
-        const TextArea=document.createElement('div')
-            const context=document.createElement('div')
-            const SelectedItem=document.createElement('div')
-        const IconArea=document.createElement('div')
+        const TextArea=document.createElement('SelectTextArea')
+            const context=document.createElement('SelectContext')
+            const SelectedItem=document.createElement('SelectedItem')
+        const IconArea=document.createElement('IconArea')
             const ico=document.createElement('div')
+
+    main.classList.add('single-select-main')
 
     //构造模块元素
     try {

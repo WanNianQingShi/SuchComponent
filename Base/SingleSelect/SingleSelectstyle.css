@@ -1,0 +1,26 @@
+.single-select-main {
+    display: inline-flex;
+    width: 100%;
+    height: fit-content;
+    border-radius: 20px;
+    margin: 5px auto;
+    background: #888888;
+}
+
+SelectTextArea {
+    display:inline;
+    flex-grow: 1;
+}
+
+SelectedContext{
+
+}
+
+SelectedItem{
+
+
+}
+
+IconArea{
+    width: 20px;
+}
